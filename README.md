@@ -32,3 +32,10 @@ Also make sure it is using one of the ports left open for incoming TCP connectio
 ### Now add other remote procedures to the server and change the client to test them
 
 You may add the same remote procedures that you added in the sockets activity.
+
+
+### feat: Add extended list operations to RPC service and client tests
+Added new remote procedures (get, remove_item, pop_item, length, clear_all) to the RPyC server's MyList service.
+Included error handling for index and value errors on the server.
+Updated the client to test all new procedures, including error cases.
+Improved server logging for RPC calls.`
